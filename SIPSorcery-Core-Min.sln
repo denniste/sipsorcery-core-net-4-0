@@ -1,18 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B7CB4A2-B101-473E-B5A8-3B746A232647}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		SIPSorcery-Core.vsmdi = SIPSorcery-Core.vsmdi
-		SIPSorcery.Core.nuspec = SIPSorcery.Core.nuspec
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5A855FE1-8B93-429D-95A5-B8215CF62A9D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIPSorcery.Sys", "SIPSorcery.Sys\SIPSorcery.Sys.csproj", "{6D8DBB7D-8937-4CC4-9703-561F776F9DBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIPSorcery.SIP.Core", "SIPSorcery.SIP.Core\SIPSorcery.SIP.Core.csproj", "{01D01BC6-231F-4FD6-BADF-51C509AB495F}"
@@ -162,6 +152,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5152E641-A412-4E50-9C11-120F0FA6C23F}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = SIPSorcery-Core.vsmdi
